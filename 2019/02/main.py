@@ -10,22 +10,15 @@ def foo(arr, idx):
     foo(arr, idx + 4)
 
 
-#foo(arr, 0)
+foo(arr, 0)
 
-#print arr
-
+print arr[0]
+arr = arr_copy[::]
 
 for i in range(100):
     for j in range(100):
-        print arr
-        print
         arr[1], arr[2] = i, j
         foo(arr, 0)
-        arr = arr_copy
-        print arr
-        print
-        print
-        print arr_copy      
-        print
-#        if arr[0] == 19690720: print i, j, 100 * i + j
 
+        if arr[0] == 19690720: print 100 * i + j
+        arr = arr_copy[::]
