@@ -2,6 +2,8 @@ arr = []
 with open("input.txt", "r") as f:
     for l in f: arr.append(int(l.strip()))
 
+print sum([j / 3 - 2 for j in arr])
+
 def additional_fuel(mass_init, mass_total):
     if mass_init / 3 - 2 <= 0: return mass_total
     mass_total += mass_init / 3 - 2
