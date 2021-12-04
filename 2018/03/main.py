@@ -12,4 +12,12 @@ for i in a:
 
 print(sum(1 for j in d.values() if j != 1))
 
+def foo():
+    for x, i in enumerate(a):
+        t = True
+        for j in range(i[0][0], i[0][1]):
+            for k in range(i[1][0], i[1][1]):
+                if d[(j, k)] != 1: t = False
+        if t: return x + 1            
 
+print(foo())
