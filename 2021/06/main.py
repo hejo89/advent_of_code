@@ -22,6 +22,4 @@ for _ in range(256):
         d[6] += t
         d[8] += t
 
-
-
 print(c)
