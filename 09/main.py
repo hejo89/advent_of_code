@@ -1,7 +1,6 @@
 import collections
 a = [map(int, list(j)) for j in open("input").read().split()]
 
-
 b = [len(a) - 1, len(a[0]) - 1]
 risk = 0
 p = []
