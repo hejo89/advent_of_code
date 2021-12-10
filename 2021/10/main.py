@@ -1,5 +1,4 @@
 a = open("input").read().split()
-b = []
 brackets = {")":"(", "]":"[", "}":"{", ">":"<"}
 s1 = 0
 s2 = []
