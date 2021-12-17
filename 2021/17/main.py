@@ -48,7 +48,7 @@ for j in y:
 c = 0
 for i in x:
     for j in z:
-        for idx, k in enumerate(z[j]):
+        for k in z[j]:
             u, v = max(x[i][0], k[0]), min(x[i][1], k[1])
             if u <= v:
                 c += 1
