@@ -11,7 +11,6 @@ def game(a, red = 0, green = 0, blue = 0, valid_game = True):
             valid_game = False
     return valid_game, red * green * blue
     
-        
 n = 0
 m = 0
 for idx, l in enumerate(open('input.txt'), 1):
