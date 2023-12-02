@@ -34,4 +34,3 @@ for j in a:
 
 print(s1)
 print(sorted(s2)[len(s2)//2])
-

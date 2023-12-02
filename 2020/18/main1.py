@@ -13,7 +13,4 @@ def f(s):
 
     return x
 
-
-
 print sum(f(j) for j in a)
-

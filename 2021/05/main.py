@@ -18,7 +18,5 @@ for c in a:
             if v < u and y < x: d[(u - i, x - i)] += 1
 
 
-
-
 print(sum(1 for j in d if d[j] > 1))
 
