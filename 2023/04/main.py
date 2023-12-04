@@ -16,6 +16,5 @@ for idx, l in enumerate(open('input.txt'), 1):
         for n in range(q[idx]):
             q[c + 1] += 1
     r += p//2
-
 print(r)
 print(sum(q.values()))
